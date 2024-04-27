@@ -13,6 +13,7 @@
     "@typescript-eslint/semi": ["error", "always"],
     "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off"
   }
