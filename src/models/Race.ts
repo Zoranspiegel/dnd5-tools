@@ -25,12 +25,33 @@ const schemaProps = {
   },
   traits: [
     {
+      name: {
+        esp: {
+          type: String,
+          required: true
+        },
+        eng: {
+          type: String,
+          required: true
+        }
+      },
+      description: {
+        esp: {
+          type: String,
+          required: true
+        },
+        eng: {
+          type: String,
+          required: true
+        }
+      },
       type: {
         type: [String],
         required: true
       },
       rules: {
         speed: Number,
+        size: String,
         weight: Number,
         height: {
           min: Number,
@@ -44,10 +65,33 @@ const schemaProps = {
         max: Number,
         value: Number,
         cancel: String,
-        weapons: String,
-        armors: String,
-        tools: String,
-        languages: String,
+        weapons: {
+          type: {
+            items: [String]
+          },
+          required: false
+        },
+        armors: {
+          type: {
+            items: [String]
+          },
+          required: false
+        },
+        tools: {
+          type: {
+            items: [String]
+          },
+          required: false
+        },
+        languages: {
+          type: {
+            items: [String]
+          },
+          required: false
+        },
+        cantrip: String,
+        spell: String,
+        lvl: Number,
         keywords: String
       }
     }
