@@ -4,8 +4,8 @@ export const dwarf: Race = {
     eng: 'Dwarf'
   },
   description: {
-    esp: 'Reinos rebosantes de antiguo esplendor, salas excavadas en las raíces de las montañas, forjas abrasadoras, el resonar de los picos y martillos en las minas, el compromiso con el clan y la tradición, y el odio a los orcos y goblins. Estas son las hebras que todos los enanos comparten.',
-    eng: 'Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs. These common threads unite all dwarves.'
+    esp: 'Reinos rebosantes de antiguo esplendor, salas excavadas en las raíces de las montañas, forjas abrasadoras, el resonar de los picos y martillos en las minas, el compromiso con el clan y la tradición, y el odio a los orcos y goblins. Estas son las hebras que todos los enanos comparten.\nAtrevidos y robustos, los enanos son conocidos por su habilidad como guerreros, mineros y trabajadores de la piedra y los metales. Aunque están bastante por debajo de los 5 pies de altura, los enanos son tan anchos y compactos que pueden pesar tanto como un humano a pesar de medir un par de pies menos que ellos. Su valentía y aguante también pueden compararse fácilmente con los de la gente alta.\nLa piel de los enanos varía en color desde un marrón profundo hasta un tono más pálido y sonrosado. No obstante, las tonalidades más comunes son el marrón claro y un moreno intenso. parecidos a los colores de la tierra. Su cabello, que llevan largo, pero con peinados sencillos, suele ser negro, gris o marrón, aunque los enanos más pálidos a veces son pelirrojos. Los enanos de género masculino tienen sus barbas en alta estima, y las cuidan y adornan.',
+    eng: 'Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs. These common threads unite all dwarves.\nBold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any ofthe larger folk.\nDwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.'
   },
   traits: [
     {
@@ -258,9 +258,10 @@ export const elf: Race = {
     esp: 'Elfo',
     eng: 'Elf'
   },
+
   description: {
-    esp: 'Los elfos son un pueblo de gracia ultraterrena, que viven en el mundo, pero no forman completamente parte de él. Habitan en lugares de belleza etérea, en medio de ancianos bosques o en torres plateadas que brillan con una luz feérica. Son espacios en los que una suave música flota en el ambiente y la brisa trae una dulce fragancia. Los elfos aman la naturaleza y la magia, el arte y la artesanía, la música y la poesía.',
-    eng: 'Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.'
+    esp: 'Los elfos son un pueblo de gracia ultraterrena, que viven en el mundo, pero no forman completamente parte de él. Habitan en lugares de belleza etérea, en medio de ancianos bosques o en torres plateadas que brillan con una luz feérica. Son espacios en los que una suave música flota en el ambiente y la brisa trae una dulce fragancia. Los elfos aman la naturaleza y la magia, el arte y la artesanía, la música y la poesía.\nDebido a su sobrenatural elegancia y rasgos delicados, los elfos parecen arrebatadoramente bellos a ojos tanto de humanos como de miembros de muchas otras razas. Son, de media, ligeramente más bajos que los humanos, midiendo entre poco menos de 5 pies y algo más de 6 pies de altura. Son más estilizados que los humanos, con pesos que oscilan entre las 100 y 145 libras. Varones y hembras poseen más o menos la misma altura, y aquellos son solo ligeramente más pesados que estas.\nLa gama de tonos de piel, cabello y ojos de los elfos incluye el habitual en los humanos, aunque su piel también puede ser de color cobre, bronce e incluso un azul casi blanco; su pelo verde o azul; y sus ojos estanques de oro y plata. Los elfos carecen por completo de vello corporal o facial. Prefieren las ropas elegantes en colores vivos y disfrutan de joyería sencilla pero hermosa.',
+    eng: 'Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.\nWith their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females.\nElves’ coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry.'
   },
   traits: [
     {
@@ -404,8 +405,8 @@ export const elf: Race = {
         eng: 'High Elf'
       },
       description: {
-        esp: 'Como alto elfo, posees una mente aguda y un dominio de, como mínimo, los rudimentos de la magia. En muchos de los mundos de D&D hay dos tipos de altos elfos. Los elfos de uno de ellos (que incluye los elfos grises y del valle de Falcongrís, los silvanesti de Dragonlance y los elfos solares de los Reinos Olvidados) son orgullosos y retraídos, pues se creen superiores a las razas no élficas e incluso a otros elfos. Los del otro tipo (que incluye los altos elfos de Falcongrís, los qua linesti de Dragonlance y los elfos lunares de los Reinos Olvidados) se dejan ver y son más amables, siendo habitual encontrarlos junto a humanos e individuos de otras razas.',
-        eng: 'As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.'
+        esp: 'Como alto elfo, posees una mente aguda y un dominio de, como mínimo, los rudimentos de la magia. Hay dos tipos de altos elfos: Los primeros son orgullosos y retraídos, pues se creen superiores a las razas no élficas e incluso a otros elfos. Los segundos, aunque poco, se dejan ver y son más amables, siendo habitual encontrarlos junto a humanos e individuos de otras razas.\nLos elfos solares, también conocidos como elfos dorados o elfos del amanecer, tienen la piel de color bronce y el cabello cobrizo, negro o rubio dorado, y sus ojos son dorados, plateados o negros. Los elfos lunares, igualmente llamados elfos plateados o elfos grises, son mucho más pálidos, con la piel como el alabastro o, a veces, tonos azules. Suelen tener el cabello de color blanco plateado, negro o azul, aunque los tonos rubios, morenos o rojizos no son raros. Sus ojos son verdes o azules con motas doradas.',
+        eng: 'As a high elf, you have a keen mind and a mastery of at least the basics of magic. There are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type are more common and more friendly, and often encountered among humans and other races.\nThe sun elves, also called gold elves or sunrise elves, have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. The moon elves, also called silver elves or gray elves, are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.'
       },
       traits: [
         {
@@ -477,8 +478,8 @@ export const elf: Race = {
         eng: 'Wood Elf'
       },
       description: {
-        esp: 'Como elfo de los bosques , posees sentidos agudos y una buena intuición. Además, tus veloces pies te permiten desplazarte rápida y sigilosamente a través de los bosques que son tu hogar. Esta categoría incluye los elfos salvajes (grugach) de Falcongrís y los kalanesti de Dragonlance. Así como las razas conocidas como elfos de los bosques en Falcongrís y los Reinos Olvidados. En Faerun, los elfos de los bosques (también llamados elfos salvajes, elfos verdes o elfos silvanos) son retraídos y no confían en los que no son elfos.',
-        eng: 'As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.'
+        esp: 'Como elfo de los bosques , posees sentidos agudos y una buena intuición. Además, tus veloces pies te permiten desplazarte rápida y sigilosamente a través de los bosques que son tu hogar.\nLa piel de los elfos del bosque suele tener un tono cobrizo, a veces con trazas de verde. Sus cabellos tienden a los tonos marrones y negros, aunque ocasionalmente son rubios o del color del cobre. Sus ojos son de color verde, marrón o avellana.',
+        eng: 'As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests.\nWood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.'
       },
       traits: [
         {
@@ -546,8 +547,8 @@ export const elf: Race = {
         eng: 'Dark Elf (Drow)'
       },
       description: {
-        esp: 'Descendientes de una subraza de elfos más antigua, los drows fueron expulsados del mundo de la superficie por seguir a la diosa Lolth en la senda del mal. Han construido su propia civilicación en las profundidades del Underdark (La Infraoscuridad) tomando como modelo el camino de Lolth.',
-        eng: 'Descended from an earlier subrace of elves, the drow were banished from the surface world for following the goddess Lolth down the path of evil. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth.'
+        esp: 'Descendientes de una subraza de elfos más antigua, los drows fueron expulsados del mundo de la superficie por seguir a la diosa Lolth en la senda del mal. Han construido su propia civilicación en las profundidades del Underdark (La Infraoscuridad) tomando como modelo el camino de Lolth.\nTambién llamados elfos oscuros, los drows poseen un tono de piel que recuerda el carbón o la obsidiana, en contraste con cabellos blancos o de un rubio pálido. Suelen tener los ojos muy claros, tan pálidos que a veces se confunden con el blanco, tonos lilas, plateados, rojos o azules. Tienden a ser más pequeños y delgados que el resto de elfos.',
+        eng: 'Descended from an earlier subrace of elves, the drow were banished from the surface world for following the goddess Lolth down the path of evil. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth.\nAlso called dark elves, the drow have skin that resembles charcoal or obsidian, as well as stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.'
       },
       traits: [
         {
@@ -656,6 +657,98 @@ export const elf: Race = {
   ]
 };
 
-const races: Race[] = [dwarf, elf];
+export const human: Race = {
+  name: {
+    esp: 'Humano',
+    eng: 'Human'
+  },
+  description: {
+    esp: 'En los registros de la mayoría de los mundos, los humanos son la más joven de las razas comunes. Han llegado comparativamente tarde al mundo y sus vidas son más cortas que las de enanos, elfos y dragones. Y quizá sea precisamente por estas cortas vidas por lo que los humanos aspiran a conseguir tanto como sean capaces en los años que se les han concedido. O puede que sientan que tienen que demostrar su valía a las razas antiguas, y por eso construyen poderosos imperios, anclados en los cimientos del comercio y la conquista. Sea cual fuere su motivación, los humanos son los innovadores, los triunfadores y los pioneros del mundo.\nLos humanos son el pueblo más flexible y ambicioso de entre las razas comunes. Poseen una amplia variedad de gustos, códigos morales y costumbres, repartidos por las numerosas tierras en las que habitan. Cuando se asientan en algún lugar, lo hacen para quedarse. Construyen ciudades que perviven durante eras y grandes reinos que pueden durar siglos. Un individuo concreto tiene una existencia corta, pero sus naciones o culturas preservan tradiciones cuyos orígenes se remontant mucho más allá de la memoria de cualquier humano.\nViven por completo en el presente, una filosofía ideal para la vida del aventurero, aunque también planean para el futuro, aspirando a dejar un legado que les sobreviva. Tanto individualmente como en grupo, los humanos son adaptables y oportunistas, capaces de estar atentos a cambios en la política y las dinámicas sociales.',
+    eng: "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.\nHumans are the most adaptable and ambitious people among the common races. They have widely varying tastes, morals, and customs in the many different lands where they have settled. When they settle, though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human's memory.\nThey live fully in the present-making them well suited to the adventuring life-but also plan for the future, striving to leave a lasting legacy. Individually and as a group, humans are adaptable opportunists, and they stay alert to changing political and social dynamics."
+  },
+  traits: [
+    {
+      name: {
+        esp: 'Mejora de Característica',
+        eng: 'Ability Score Increase'
+      },
+      description: {
+        esp: 'Todas tus puntuaciones de característica aumentan en 1.',
+        eng: 'Your ability scores each increase by 1.'
+      },
+      type: ['ability_increase'],
+      rules: {
+        ability: 'ALL',
+        value: 1
+      }
+    },
+    {
+      name: {
+        esp: 'Edad',
+        eng: 'Age'
+      },
+      description: {
+        esp: 'Alcanzan la madurez poco antes de los veinte años y viven menos de un siglo',
+        eng: 'Humans reach adulthood in their late teens and live less than a century.'
+      },
+      type: ['age'],
+      rules: {
+        min: 18,
+        max: 100
+      }
+    },
+    {
+      name: {
+        esp: 'Tamaño',
+        eng: 'Size'
+      },
+      description: {
+        esp: 'La altura y la complexión de los humanos varían enormemente de un individuo a otro, midiendo entre un poco menos de 5 pies y algo más de 6 pies de altura. Independientemente de cuál sea tu altura concreta, tu tamaño es Mediano',
+        eng: 'Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium'
+      },
+      type: ['size'],
+      rules: {
+        height: {
+          min: 5,
+          max: 6
+        }
+      }
+    },
+    {
+      name: {
+        esp: 'Velocidad',
+        eng: 'Speed'
+      },
+      description: {
+        esp: 'Tu velocidad caminando base es de 30 pies.',
+        eng: 'Your base walking speed is 30 feet.'
+      },
+      type: ['speed'],
+      rules: {
+        value: 30
+      }
+    },
+    {
+      name: {
+        esp: 'Idiomas',
+        eng: 'Languages'
+      },
+      description: {
+        esp: 'Puedes hablar, leer y escribir común y un idioma adicional de tu elección.',
+        eng: 'You can speak, read, and write Common and one extra language of your choice.'
+      },
+      type: ['languages'],
+      rules: {
+        languages: {
+          items: ['common', 'any']
+        },
+        value: 1
+      }
+    }
+  ],
+  subraces: []
+};
+
+const races: Race[] = [dwarf, elf, human];
 
 export default races;
